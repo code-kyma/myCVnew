@@ -1,0 +1,34 @@
+{
+  "welcome": "Junior Frontend Developer",
+  "description": "I'm Kymbat, from Serbia. I am a passionate frontend developer dedicated to crafting modern, responsive, and high-performance web applications with precision and creativity.",
+  "portfolio": "Portfolio",
+  "about": "About Me",
+  "contact": "Contact",
+  "about_me": {
+    "title": "About Me",
+    "description": "MBA graduate from a British university, passionate about frontend development. Experienced in React and modern web technologies, I focus on creating intuitive and high-performance user interfaces."
+  },
+  "skills": "Skills",
+  "contact_me": {
+    "title": "Contact me"
+  },
+  "projects": {
+    "weather_app": {
+      "title": "Weather App",
+      "description": "A responsive React app with Tailwind CSS for real-time weather updates."
+    },
+    "currency_converter": {
+      "title": "Currency Converter",
+      "description": "A modern React app using Tailwind CSS for quick and accurate currency conversions."
+    },
+    "to_do_list": {
+      "title": "To-Do List",
+      "description": "A simple and efficient task manager built with React and Tailwind CSS to help you stay organized and productive."
+    },
+    "expense_tracker": {
+      "title": "Expense Tracker",
+      "description": "A smart expense tracking app that helps you manage your budget and visualize spending with ease."
+    }
+  }
+}
+

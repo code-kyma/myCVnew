@@ -1,0 +1,33 @@
+{
+  "welcome": "Junior Frontend Developer",
+  "description": "Ja sam Kymbat iz Srbije. Strastveni sam frontend developer posvećen izradi modernih, responzivnih i visokoperformansnih web aplikacija sa preciznošću i kreativnošću.",
+  "portfolio": "Portfolio",
+  "about": "O meni",
+  "contact": "Kontakt",
+  "about_me": {
+    "title": "O meni",
+    "description": "MBA diplomac britanskog univerziteta, strastvena sam frontend developerka. Iskusna u React-u i modernim web tehnologijama, fokusiram se na kreiranje intuitivnih i visokoperformansnih korisničkih interfejsa."
+  },
+  "skills": "Veštine",
+  "contact_me": {
+    "title": "Kontaktirajte me"
+  },
+  "projects": {
+    "weather_app": {
+      "title": "Aplikacija za vremensku prognozu",
+      "description": "Responzivna React aplikacija sa Tailwind CSS-om za praćenje vremenskih uslova u realnom vremenu."
+    },
+    "currency_converter": {
+      "title": "Konvertor valuta",
+      "description": "Moderna React aplikacija sa Tailwind CSS-om za brzo i precizno konvertovanje valuta."
+    },
+    "to_do_list": {
+      "title": "Lista zadataka",
+      "description": "Jednostavan i efikasan menadžer zadataka izra en sa React-om i Tailwind CSS-om koji vam poma e da ostanete organizirani i produktivni."
+    },
+    "expense_tracker": {
+      "title": "Tracker troskova",
+      "description": "Pametna aplikacija za praćenje troškova koja vam poma e da upravljate budžetom i vizualizujete trošenje s lakoćom."
+    }
+  }
+}
