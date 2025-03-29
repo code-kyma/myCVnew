@@ -23,7 +23,7 @@ function App() {
                 <LanguageSwitcher />
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-6xl mx-auto py-6 gap-16 mb-6 md:mb-12">
+            <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-6xl mx-auto py-6 gap-16 mb-1 md:mb-2">
             <div className="md:w-1/2 text-center ml-0">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold drop-shadow-lg bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
                         {t("welcome")}
@@ -41,7 +41,7 @@ function App() {
 
 
 
-            <nav className="flex justify-center gap-6 mt-6 mb-8 border-b pb-2 text-lg w-full max-w-4xl px-4 sm:px-0">
+            <nav className="flex justify-center gap-6 mt-6 mb-6 border-b pb-2 text-lg w-full max-w-4xl px-4 sm:px-0">
                 {["portfolio", "about", "contact"].map((tab) => (
                     <button
                         key={tab}
