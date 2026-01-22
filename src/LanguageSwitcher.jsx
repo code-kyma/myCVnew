@@ -10,6 +10,9 @@ export default function LanguageSwitcher() {
         { code: "en", name: "English", flag: "/Flag_of_the_United_States.svg" },
         { code: "ru", name: "Русский", flag: "/Flag_of_Russia.svg" },
         { code: "sr", name: "Srpski", flag: "/Flag_of_Serbia.svg" },
+        { code: "fr", name: "Français", flag: "🇫🇷" },
+        { code: "de", name: "Deutsch", flag: "🇩🇪" },
+        { code: "es", name: "Español", flag: "🇪🇸" },
     ];
 
     const toggleDropdown = () => setIsOpen((prev) => !prev);
@@ -51,15 +54,29 @@ export default function LanguageSwitcher() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
             >
-                <motion.img
-                    src={languages.find(lang => lang.code === i18n.language)?.flag || "/Flag_of_the_United_States.svg"}
-                    alt={i18n.language}
-                    width="40"
-                    height="40"
-                    animate={{ rotate: isOpen ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="rounded-md"
-                />
+                {(() => {
+                    const currentLang = languages.find(lang => lang.code === i18n.language) || languages[0];
+                    const flag = currentLang.flag;
+                    return flag.includes("/") ? (
+                        <motion.img
+                            src={flag}
+                            alt={i18n.language}
+                            width="40"
+                            height="40"
+                            animate={{ rotate: isOpen ? 180 : 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="rounded-md"
+                        />
+                    ) : (
+                        <motion.span
+                            animate={{ rotate: isOpen ? 180 : 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="text-2xl"
+                        >
+                            {flag}
+                        </motion.span>
+                    );
+                })()}
             </motion.button>
 
             <AnimatePresence>
@@ -83,14 +100,23 @@ export default function LanguageSwitcher() {
                                     custom={i}
                                     whileHover={{ x: 4 }}
                                 >
-                                    <motion.img
-                                        src={flag}
-                                        alt={name}
-                                        width="30"
-                                        height="30"
-                                        className="mr-3 rounded-sm"
-                                        whileHover={{ scale: 1.2, rotate: 5 }}
-                                    />
+                                    {flag.includes("/") ? (
+                                        <motion.img
+                                            src={flag}
+                                            alt={name}
+                                            width="30"
+                                            height="30"
+                                            className="mr-3 rounded-sm"
+                                            whileHover={{ scale: 1.2, rotate: 5 }}
+                                        />
+                                    ) : (
+                                        <motion.span
+                                            className="mr-3 text-xl"
+                                            whileHover={{ scale: 1.2, rotate: 5 }}
+                                        >
+                                            {flag}
+                                        </motion.span>
+                                    )}
                                     <span className="text-sm font-medium">{name}</span>
                                     {code === i18n.language && (
                                         <motion.span

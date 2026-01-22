@@ -1,0 +1,33 @@
+{
+  "welcome": "Desarrollador Frontend",
+  "description": "Soy Kymbat, de Serbia. Soy un desarrollador frontend apasionado dedicado a crear aplicaciones web modernas, receptivas y de alto rendimiento con precisión y creatividad.",
+  "portfolio": "Portafolio",
+  "about": "Acerca de mí",
+  "contact": "Contacto",
+  "about_me": {
+    "title": "Acerca de mí",
+    "description": "Graduada de MBA de una universidad británica, apasionada por el desarrollo frontend. Experimentada en React y tecnologías web modernas, me enfoco en crear interfaces de usuario intuitivas y de alto rendimiento."
+  },
+  "skills": "Habilidades",
+  "contact_me": {
+    "title": "Contáctame"
+  },
+  "projects": {
+    "weather_app": {
+      "title": "Aplicación de Clima",
+      "description": "Una aplicación React receptiva con Tailwind CSS para actualizaciones meteorológicas en tiempo real."
+    },
+    "currency_converter": {
+      "title": "Convertidor de Divisas",
+      "description": "Una aplicación React moderna con Tailwind CSS para conversiones de divisas rápidas y precisas."
+    },
+    "to_do_list": {
+      "title": "Lista de Tareas",
+      "description": "Un gestor de tareas simple y eficiente creado con React y Tailwind CSS para ayudarte a mantenerte organizado y productivo."
+    },
+    "expense_tracker": {
+      "title": "Rastreador de Gastos",
+      "description": "Una aplicación inteligente de seguimiento de gastos que te ayuda a administrar tu presupuesto y visualizar gastos con facilidad."
+    }
+  }
+}

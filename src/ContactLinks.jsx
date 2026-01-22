@@ -20,7 +20,7 @@ const ContactLinks = () => {
         },
         {
             name: "Telegram",
-            url: "https://t.me/kymbat_k",
+            url: "https://t.me/bloomingkym",
             icon: telegram,
             color: "from-blue-500 to-cyan-500"
         }
