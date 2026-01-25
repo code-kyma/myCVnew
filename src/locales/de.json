@@ -15,23 +15,23 @@
   "projects": {
     "weather_app": {
       "title": "Wetter-App",
-      "description": "Eine responsive React-App mit Tailwind CSS für Echtzeit-Wetterzupdates."
+      "description": "Erhalten Sie Echtzeitwetterupdates und Vorhersagen für jeden Ort weltweit."
     },
     "currency_converter": {
       "title": "Währungsumrechner",
-      "description": "Eine moderne React-App mit Tailwind CSS für schnelle und genaue Währungsumrechnungen."
+      "description": "Konvertieren Sie zwischen Währungen mit Live-Wechselkursen und sofortigen Berechnungen."
     },
     "to_do_list": {
       "title": "Aufgabenliste",
-      "description": "Ein einfacher und effizienter Aufgabenverwaltungs-Manager, der mit React und Tailwind CSS erstellt wurde, um dir dabei zu helfen, organisiert und produktiv zu bleiben."
+      "description": "Verwalten Sie Ihre täglichen Aufgaben effizient mit einem intuitiven Task-Manager."
     },
     "expense_tracker": {
       "title": "Ausgabentracker",
-      "description": "Eine intelligente Ausgaben-Tracking-App, die dir hilft, dein Budget zu verwalten und Ausgaben mit Leichtigkeit zu visualisieren."
+      "description": "Verfolgen und analysieren Sie Ihre Ausgabengewohnheiten mit visuellen Einblicken und Budgetverwaltung."
     },
     "mini_shop": {
       "title": "Mini Shop",
-      "description": "Ein schöner und funktionsfähiger Online-Shop mit Vue 3 und Vite. Responsiver Produktkatalog mit Filterung, Suchfunktion, Einkaufswagen und einfaches Bezahlen."
+      "description": "Durchsuchen Sie Produkte, filtern Sie nach Kategorien, suchen Sie Artikel und führen Sie Käufe nahtlos durch."
     }
   }
 }

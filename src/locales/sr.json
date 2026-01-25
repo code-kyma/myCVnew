@@ -15,23 +15,23 @@
   "projects": {
     "weather_app": {
       "title": "Aplikacija za vremensku prognozu",
-      "description": "Responzivna React aplikacija sa Tailwind CSS-om za praćenje vremenskih uslova u realnom vremenu."
+      "description": "Dobijajte vesti o vremenu u realnom vremenu i prognoze za bilo koje mesto na svetu."
     },
     "currency_converter": {
       "title": "Konvertor valuta",
-      "description": "Moderna React aplikacija sa Tailwind CSS-om za brzo i precizno konvertovanje valuta."
+      "description": "Konvertujte između valuta sa živim kursevima i trenutnim izračunima."
     },
     "to_do_list": {
       "title": "Lista zadataka",
-      "description": "Jednostavan i efikasan menadžer zadataka izra en sa React-om i Tailwind CSS-om koji vam poma e da ostanete organizirani i produktivni."
+      "description": "Upravljajte svojim dnevnim zadacima efikasno sa intuitivnim menadžerom zadataka."
     },
     "expense_tracker": {
       "title": "Tracker troskova",
-      "description": "Pametna aplikacija za praćenje troškova koja vam poma e da upravljate budžetom i vizualizujete trošenje s lakoćom."
+      "description": "Pratite i analizirajte svoje navike trošenja sa vizuelnim uvdima i upravljanjem budžetom."
     },
     "mini_shop": {
       "title": "Mini prodavnica",
-      "description": "Lepa i funkcionalna online prodavnica izra ena sa Vue 3 i Vite. Katalog proizvoda sa filterima, pretragom, šoping korpom i jednostavnim plaćanjem."
+      "description": "Pregledajte proizvode, filtrirajte po kategorijama, pretražujte stavke i obavršite kupovine bez problema."
     }
   }
 }
