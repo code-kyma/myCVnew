@@ -46,6 +46,13 @@ function App() {
             url: "https://expense-tracker-phi-smoky.vercel.app/",
             icon: "💰",
             color: "from-orange-500 to-red-500"
+        },
+        {
+            title: t("projects.mini_shop.title"),
+            description: t("projects.mini_shop.description"),
+            url: "https://mini-shop-two-pi.vercel.app/",
+            icon: "🛍️",
+            color: "from-rose-500 to-pink-500"
         }
     ];
 

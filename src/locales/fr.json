@@ -28,6 +28,10 @@
     "expense_tracker": {
       "title": "Suivi des Dépenses",
       "description": "Une application intelligente de suivi des dépenses qui vous aide à gérer votre budget et à visualiser vos dépenses facilement."
+    },
+    "mini_shop": {
+      "title": "Mini Boutique",
+      "description": "Une belle et fonctionnelle boutique en ligne construite avec Vue 3 et Vite. Catalogue de produits réactif avec filtrage, recherche, panier d'achat et paiement facile."
     }
   }
 }

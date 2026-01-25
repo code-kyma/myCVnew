@@ -28,6 +28,10 @@
     "expense_tracker": {
       "title": "Ausgabentracker",
       "description": "Eine intelligente Ausgaben-Tracking-App, die dir hilft, dein Budget zu verwalten und Ausgaben mit Leichtigkeit zu visualisieren."
+    },
+    "mini_shop": {
+      "title": "Mini Shop",
+      "description": "Ein schöner und funktionsfähiger Online-Shop mit Vue 3 und Vite. Responsiver Produktkatalog mit Filterung, Suchfunktion, Einkaufswagen und einfaches Bezahlen."
     }
   }
 }

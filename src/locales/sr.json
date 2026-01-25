@@ -28,6 +28,10 @@
     "expense_tracker": {
       "title": "Tracker troskova",
       "description": "Pametna aplikacija za praćenje troškova koja vam poma e da upravljate budžetom i vizualizujete trošenje s lakoćom."
+    },
+    "mini_shop": {
+      "title": "Mini prodavnica",
+      "description": "Lepa i funkcionalna online prodavnica izra ena sa Vue 3 i Vite. Katalog proizvoda sa filterima, pretragom, šoping korpom i jednostavnim plaćanjem."
     }
   }
 }

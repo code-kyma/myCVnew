@@ -28,6 +28,10 @@
     "expense_tracker": {
       "title": "Rastreador de Gastos",
       "description": "Una aplicación inteligente de seguimiento de gastos que te ayuda a administrar tu presupuesto y visualizar gastos con facilidad."
+    },
+    "mini_shop": {
+      "title": "Mini Tienda",
+      "description": "Una hermosa y funcional tienda de comercio electrónico construida con Vue 3 y Vite. Catálogo de productos responsivo con filtración, búsqueda, carrito de compras y pago fácil."
     }
   }
 }

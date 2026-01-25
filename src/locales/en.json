@@ -28,6 +28,10 @@
     "expense_tracker": {
       "title": "Expense Tracker",
       "description": "A smart expense tracking app that helps you manage your budget and visualize spending with ease."
+    },
+    "mini_shop": {
+      "title": "Mini Shop",
+      "description": "A beautiful and functional e-commerce store built with Vue 3 and Vite. Features responsive product catalog with filtering, search functionality, shopping cart, and checkout."
     }
   }
 }
