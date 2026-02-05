@@ -13,6 +13,10 @@
     "title": "Kontaktirajte me"
   },
   "projects": {
+    "fitflow": {
+      "title": "FitFlow - Fitnes Landing Page",
+      "description": "Moderna, responzivna landing stranica namenjena privlačenju korisnika i motivisanju ih da se registruju ili započnu besplatan period."
+    },
     "weather_app": {
       "title": "Aplikacija za vremensku prognozu",
       "description": "Dobijajte vesti o vremenu u realnom vremenu i prognoze za bilo koje mesto na svetu."

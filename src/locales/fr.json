@@ -13,6 +13,10 @@
     "title": "Contactez-moi"
   },
   "projects": {
+    "fitflow": {
+      "title": "FitFlow - Page de Destination Fitness",
+      "description": "Page de destination moderne et réactive conçue pour attirer les utilisateurs et les motiver à s'inscrire ou à démarrer un essai gratuit."
+    },
     "weather_app": {
       "title": "Application Météo",
       "description": "Obtenez des mises à jour météorologiques en temps réel et des prévisions pour n'importe quel endroit du monde."

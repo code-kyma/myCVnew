@@ -13,6 +13,10 @@
     "title": "Contact me"
   },
   "projects": {
+    "fitflow": {
+      "title": "FitFlow - Fitness Landing Page",
+      "description": "Modern, responsive landing page designed to attract users and motivate them to register or start a free trial."
+    },
     "weather_app": {
       "title": "Weather App",
       "description": "Get real-time weather updates and forecasts for any location worldwide."

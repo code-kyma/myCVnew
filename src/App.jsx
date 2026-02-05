@@ -20,6 +20,13 @@ function App() {
 
     const projects = [
         {
+            title: t("projects.fitflow.title"),
+            description: t("projects.fitflow.description"),
+            url: "https://landing-page-1iene6sg8-code-kymas-projects.vercel.app/",
+            icon: "🏆",
+            color: "from-red-500 to-orange-500"
+        },
+        {
             title: t("projects.weather_app.title"),
             description: t("projects.weather_app.description"),
             url: "https://weather-flax-omega.vercel.app/",

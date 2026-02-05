@@ -13,6 +13,10 @@
     "title": "Contáctame"
   },
   "projects": {
+    "fitflow": {
+      "title": "FitFlow - Página de Aterrizaje de Fitness",
+      "description": "Página de aterrizaje moderna y receptiva diseñada para atraer usuarios y motivarlos a registrarse o iniciar una prueba gratuita."
+    },
     "weather_app": {
       "title": "Aplicación de Clima",
       "description": "Obtenga actualizaciones meteorológicas en tiempo real y pronósticos para cualquier ubicación del mundo."
